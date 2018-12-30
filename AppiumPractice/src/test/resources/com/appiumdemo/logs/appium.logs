@@ -1,0 +1,214 @@
+2018-12-30 21:22:54:060 - warn: [Appium] Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+2018-12-30 21:22:54:147 - info: [Appium] Welcome to Appium v1.9.1
+2018-12-30 21:22:54:147 - info: [Appium] Non-default server args:
+2018-12-30 21:22:54:147 - info: [Appium]   log: C:\Users\sesh\eclipse-workspace\AppiumPractice\src\test\resources\com\appiumdemo\logs\appium.logs
+2018-12-30 21:22:54:147 - info: [Appium]   localTimezone: true
+2018-12-30 21:22:54:448 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-12-30 21:22:54:871 - info: [HTTP] --> GET /wd/hub/status
+2018-12-30 21:22:54:871 - info: [HTTP] {}
+2018-12-30 21:22:54:887 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-30 21:22:54:887 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-12-30 21:22:56:422 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 67
+2018-12-30 21:22:56:432 - info: [HTTP] 
+2018-12-30 21:22:56:977 - info: [HTTP] --> GET /wd/hub/status
+2018-12-30 21:22:56:977 - info: [HTTP] {}
+2018-12-30 21:22:56:977 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-30 21:22:56:993 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-12-30 21:22:57:008 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 67
+2018-12-30 21:22:57:008 - info: [HTTP] 
+2018-12-30 21:23:04:792 - info: [HTTP] --> POST /wd/hub/session
+2018-12-30 21:23:04:807 - info: [HTTP] {"desiredCapabilities":{"appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","platformVersion":"8.1.0","automationName":"UiAutomator2","browserName":"","platformName":"Android","deviceName":"48fedac1"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.oneplus.camera.OPCameraActivity","appium:appPackage":"com.oneplus.camera","appium:automationName":"UiAutomator2","browserName":"","appium:deviceName":"48fedac1","platformName":"android","appium:platformVersion":"8.1.0"}]}}
+2018-12-30 21:23:04:808 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","platformVersion":"8.1.0","automationName":"UiAutomator2","browserName":"","platformName":"Android","deviceName":"48fedac1"},null,{"firstMatch":[{"appium:appActivity":"com.oneplus.camera.OPCameraActivity","appium:appPackage":"com.oneplus.camera","appium:automationName":"UiAutomator2","browserName":"","appium:deviceName":"48fedac1","platformName":"android","appium:platformVersion":"8.1.0"}]}]
+2018-12-30 21:23:04:808 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1546185184808 (21:23:04 GMT+0530 (India Standard Time))
+2018-12-30 21:23:04:839 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.19.0) session
+2018-12-30 21:23:04:839 - info: [Appium] Capabilities:
+2018-12-30 21:23:04:839 - info: [Appium]   browserName: 
+2018-12-30 21:23:04:845 - info: [Appium]   platformName: android
+2018-12-30 21:23:04:845 - info: [Appium]   appActivity: com.oneplus.camera.OPCameraActivity
+2018-12-30 21:23:04:845 - info: [Appium]   appPackage: com.oneplus.camera
+2018-12-30 21:23:04:845 - info: [Appium]   automationName: UiAutomator2
+2018-12-30 21:23:04:845 - info: [Appium]   deviceName: 48fedac1
+2018-12-30 21:23:04:845 - info: [Appium]   platformVersion: 8.1.0
+2018-12-30 21:23:04:845 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"browserNam... and MJSONWP desired capabilities {"appActivity":"com.oneplus... were provided
+2018-12-30 21:23:04:845 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"browserNam...
+2018-12-30 21:23:04:923 - info: [BaseDriver] Session created with session id: 289ee778-e825-4752-a940-8418ebf043b2
+2018-12-30 21:23:06:262 - info: [AndroidDriver] Java version is: 1.8.0_191
+2018-12-30 21:23:06:279 - info: [ADB] Checking whether adb is present
+2018-12-30 21:23:06:309 - info: [ADB] Found 1 'build-tools' folders under 'F:\Android_sdk' (newest first):
+2018-12-30 21:23:06:309 - info: [ADB]     F:/Android_sdk/build-tools/28.0.3
+2018-12-30 21:23:06:309 - info: [ADB] Using adb.exe from F:\Android_sdk\platform-tools\adb.exe
+2018-12-30 21:23:06:321 - info: [AndroidDriver] Retrieving device list
+2018-12-30 21:23:06:321 - info: [debug] [ADB] Trying to find a connected android device
+2018-12-30 21:23:06:331 - info: [debug] [ADB] Getting connected devices...
+2018-12-30 21:23:07:252 - info: [debug] [ADB] 1 device(s) connected
+2018-12-30 21:23:07:268 - info: [AndroidDriver] Looking for a device with Android '8.1.0'
+2018-12-30 21:23:07:268 - info: [debug] [ADB] Setting device id to 48fedac1
+2018-12-30 21:23:07:270 - info: [ADB] Getting device platform version
+2018-12-30 21:23:07:270 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell getprop ro.build.version.release'
+2018-12-30 21:23:07:700 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2018-12-30 21:23:07:700 - info: [AndroidDriver] Using device: 48fedac1
+2018-12-30 21:23:07:715 - info: [debug] [ADB] Setting device id to 48fedac1
+2018-12-30 21:23:07:715 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell getprop ro.build.version.sdk'
+2018-12-30 21:23:07:976 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 27
+2018-12-30 21:23:07:976 - info: [debug] [ADB] Device API level: 27
+2018-12-30 21:23:07:984 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-12-30 21:23:07:986 - info: [ADB] Getting device platform version
+2018-12-30 21:23:07:986 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell getprop ro.build.version.release'
+2018-12-30 21:23:08:368 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2018-12-30 21:23:08:372 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell wm size'
+2018-12-30 21:23:09:290 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell wm density'
+2018-12-30 21:23:09:976 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell getprop ro.product.model'
+2018-12-30 21:23:10:292 - info: [debug] [ADB] Current device property 'ro.product.model': ONEPLUS A5000
+2018-12-30 21:23:10:292 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell getprop ro.product.manufacturer'
+2018-12-30 21:23:10:625 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': OnePlus
+2018-12-30 21:23:10:625 - info: [debug] [ADB] Device API level: 27
+2018-12-30 21:23:10:640 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell am force-stop io.appium.uiautomator2.server'
+2018-12-30 21:23:10:979 - info: [debug] [ADB] Checking app cert for C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.18.0.apk
+2018-12-30 21:23:10:990 - info: [ADB] Using apksigner.bat from F:\Android_sdk\build-tools\28.0.3\apksigner.bat
+2018-12-30 21:23:11:006 - info: [debug] [ADB] Starting 'F:\Android_sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\sesh\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.18.0.apk"]'
+2018-12-30 21:23:21:871 - info: [debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2018-12-30 21:23:21:883 - info: [debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2018-12-30 21:23:21:883 - info: [debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2018-12-30 21:23:21:884 - info: [debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2018-12-30 21:23:21:884 - info: [debug] [ADB] WARNING: META-INF/INDEX.LIST not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+2018-12-30 21:23:21:884 - info: [debug] [ADB] WARNING: META-INF/io.netty.versions.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+2018-12-30 21:23:21:885 - info: [debug] [ADB] 
+2018-12-30 21:23:21:885 - info: [debug] [ADB] 'C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.18.0.apk' is already signed.
+2018-12-30 21:23:21:885 - info: [debug] [ADB] Checking app cert for C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2018-12-30 21:23:21:916 - info: [debug] [ADB] Starting 'F:\Android_sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\sesh\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2018-12-30 21:23:25:511 - info: [debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2018-12-30 21:23:25:513 - info: [debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2018-12-30 21:23:25:513 - info: [debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2018-12-30 21:23:25:514 - info: [debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2018-12-30 21:23:25:514 - info: [debug] [ADB] 
+2018-12-30 21:23:25:514 - info: [debug] [ADB] 'C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2018-12-30 21:23:25:514 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2018-12-30 21:23:25:514 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm list packages io.appium.uiautomator2.server'
+2018-12-30 21:23:26:134 - info: [debug] [ADB] App is installed
+2018-12-30 21:23:26:134 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2018-12-30 21:23:26:134 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell dumpsys package io.appium.uiautomator2.server'
+2018-12-30 21:23:26:435 - info: [ADB] Checking whether aapt is present
+2018-12-30 21:23:26:451 - info: [ADB] Using aapt.exe from F:\Android_sdk\build-tools\28.0.3\aapt.exe
+2018-12-30 21:23:27:037 - info: [debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.18.0' >= '1.18.0')
+2018-12-30 21:23:27:052 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-12-30 21:23:27:052 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm list packages io.appium.uiautomator2.server.test'
+2018-12-30 21:23:27:616 - info: [debug] [ADB] App is installed
+2018-12-30 21:23:27:616 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+2018-12-30 21:23:27:616 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell dumpsys package io.appium.uiautomator2.server.test'
+2018-12-30 21:23:28:102 - warn: [ADB] Cannot read version codes of 'C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2018-12-30 21:23:28:113 - warn: [ADB] Cannot read version names of 'C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+2018-12-30 21:23:28:114 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2018-12-30 21:23:28:114 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm list instrumentation'
+2018-12-30 21:23:28:672 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2018-12-30 21:23:28:672 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 wait-for-device'
+2018-12-30 21:23:28:919 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell echo ping'
+2018-12-30 21:23:29:158 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-12-30 21:23:29:162 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-30 21:23:29:163 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm list packages io.appium.settings'
+2018-12-30 21:23:29:759 - info: [debug] [ADB] App is installed
+2018-12-30 21:23:29:759 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-12-30 21:23:29:759 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell dumpsys package io.appium.settings'
+2018-12-30 21:23:30:508 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-12-30 21:23:30:522 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell ps'
+2018-12-30 21:23:30:909 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-12-30 21:23:30:909 - info: [debug] [ADB] Device API level: 27
+2018-12-30 21:23:30:924 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell appops set io.appium.settings android\:mock_location allow'
+2018-12-30 21:23:31:194 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-12-30 21:23:31:194 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-12-30 21:23:31:209 - info: [debug] [Logcat] Starting logcat capture
+2018-12-30 21:23:31:426 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-12-30 21:23:31:426 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-12-30 21:23:31:426 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm list packages io.appium.unlock'
+2018-12-30 21:23:32:065 - info: [debug] [ADB] App is installed
+2018-12-30 21:23:32:074 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-12-30 21:23:32:075 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell dumpsys package io.appium.unlock'
+2018-12-30 21:23:32:732 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-12-30 21:23:32:732 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8201
+2018-12-30 21:23:32:732 - info: [debug] [ADB] Forwarding system: 8201 to device: 6790
+2018-12-30 21:23:32:747 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 forward tcp\:8201 tcp\:6790'
+2018-12-30 21:23:33:023 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell rm -rf /data/local/tmp/strings.json'
+2018-12-30 21:23:33:293 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm path com.oneplus.camera'
+2018-12-30 21:23:33:910 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 pull /system/priv-app/OnePlusCamera/OnePlusCamera.apk C\:\\Users\\sesh\\AppData\\Local\\Temp\\com.oneplus.camera.apk'
+2018-12-30 21:23:35:144 - info: [debug] [ADB] Pulled app for package 'com.oneplus.camera' to 'C:\Users\sesh\AppData\Local\Temp\com.oneplus.camera.apk'
+2018-12-30 21:23:35:144 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-12-30 21:23:35:144 - info: [debug] [AndroidDriver] C:\Users\sesh\AppData\Local\Temp\com.oneplus.camera.apk
+2018-12-30 21:23:35:144 - info: [debug] [AndroidDriver] null
+2018-12-30 21:23:35:144 - info: [debug] [AndroidDriver] C:\Users\sesh\AppData\Local\Temp\com.oneplus.camera
+2018-12-30 21:23:35:160 - info: [debug] [ADB] Extracting strings for language: default
+2018-12-30 21:23:36:421 - info: [ADB] Successfully extracted 276 strings from 'C:\Users\sesh\AppData\Local\Temp\com.oneplus.camera.apk' resources for '(default)' configuration
+2018-12-30 21:23:36:431 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 push C\:\\Users\\sesh\\AppData\\Local\\Temp\\com.oneplus.camera\\strings.json /data/local/tmp'
+2018-12-30 21:23:36:788 - info: [debug] [UiAutomator2] No app capability. Assuming it is already on the device
+2018-12-30 21:23:36:788 - info: [debug] [ADB] Getting install status for com.oneplus.camera
+2018-12-30 21:23:36:804 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm list packages com.oneplus.camera'
+2018-12-30 21:23:37:424 - info: [debug] [ADB] App is installed
+2018-12-30 21:23:37:427 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell am force-stop com.oneplus.camera'
+2018-12-30 21:23:37:813 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell pm clear com.oneplus.camera'
+2018-12-30 21:23:38:515 - info: [debug] [AndroidDriver] Performed fast reset on the installed 'com.oneplus.camera' application (stop and clear)
+2018-12-30 21:23:38:522 - info: [debug] [ADB] Checking app cert for null
+2018-12-30 21:23:38:524 - info: [debug] [ADB] 'null' doesn't exist
+2018-12-30 21:23:38:524 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-12-30 21:23:38:524 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell ps'
+2018-12-30 21:23:38:900 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell am force-stop io.appium.uiautomator2.server'
+2018-12-30 21:23:39:170 - info: [UiAutomator2] Starting uiautomator2 server 1.18.0
+2018-12-30 21:23:39:170 - info: [UiAutomator2] Using UIAutomator2 server from 'C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.18.0.apk' and test from 'C:\Users\sesh\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2018-12-30 21:23:39:170 - info: [UiAutomator2] Running command: 'adb -s 48fedac1 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2018-12-30 21:23:39:170 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2018-12-30 21:23:39:185 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-30 21:23:39:185 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-12-30 21:23:40:235 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-30 21:23:40:241 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-12-30 21:23:41:269 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-30 21:23:41:270 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-12-30 21:23:42:278 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-30 21:23:42:296 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-12-30 21:23:42:409 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2018-12-30 21:23:42:409 - info: [debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-12-30 21:23:42:425 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8201/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0"},"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0","deviceUDID":"48fedac1","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"ONEPLUS A5000","deviceManufacturer":"OnePlus","deviceApiLevel":27}}
+2018-12-30 21:23:42:478 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"8b259873-bb66-4d68-976e-933d38326f8c","status":0,"value":"Created Session"}
+2018-12-30 21:23:42:478 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell dumpsys window'
+2018-12-30 21:23:42:826 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-30 21:23:42:826 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.oneplus.camera/com.oneplus.camera.OPCameraActivity'. Starting it ourselves
+2018-12-30 21:23:42:842 - info: [debug] [ADB] Device API level: 27
+2018-12-30 21:23:42:842 - info: [debug] [ADB] Running 'F:\Android_sdk\platform-tools\adb.exe -P 5037 -s 48fedac1 shell am start -W -n com.oneplus.camera/com.oneplus.camera.OPCameraActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-30 21:23:43:729 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8201/wd/hub/session/8b259873-bb66-4d68-976e-933d38326f8c/appium/device/pixel_ratio] with body: {}
+2018-12-30 21:23:43:768 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b259873-bb66-4d68-976e-933d38326f8c\",\"status\":0,\"value\":2.625}"
+2018-12-30 21:23:43:768 - info: [debug] [JSONWP Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2018-12-30 21:23:43:768 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8201/wd/hub/session/8b259873-bb66-4d68-976e-933d38326f8c/appium/device/system_bars] with body: {}
+2018-12-30 21:23:43:798 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b259873-bb66-4d68-976e-933d38326f8c\",\"status\":0,\"value\":{\"statusBar\":63}}"
+2018-12-30 21:23:43:798 - info: [debug] [JSONWP Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2018-12-30 21:23:43:798 - info: [debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8201/wd/hub/session/8b259873-bb66-4d68-976e-933d38326f8c/window/current/size] with body: {}
+2018-12-30 21:23:43:829 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b259873-bb66-4d68-976e-933d38326f8c\",\"status\":0,\"value\":{\"height\":1920,\"width\":1080}}"
+2018-12-30 21:23:43:829 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session 289ee778-e825-4752-a940-8418ebf043b2 added to master session list
+2018-12-30 21:23:43:829 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1546185223829 (21:23:43 GMT+0530 (India Standard Time))
+2018-12-30 21:23:43:844 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session 289ee778-e825-4752-a940-8418ebf043b2
+2018-12-30 21:23:43:844 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0"},"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0","deviceUDID":"48fedac1","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"ONEPLUS A5000","deviceManufacturer":"OnePlus","deviceApiLevel":27,"pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}}
+2018-12-30 21:23:43:844 - info: [HTTP] <-- POST /wd/hub/session 200 39047 ms - 967
+2018-12-30 21:23:43:844 - info: [HTTP] 
+2018-12-30 21:23:44:657 - info: [HTTP] --> GET /wd/hub/session/289ee778-e825-4752-a940-8418ebf043b2
+2018-12-30 21:23:44:665 - info: [HTTP] {}
+2018-12-30 21:23:44:667 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["289ee778-e825-4752-a940-8418ebf043b2"]
+2018-12-30 21:23:44:667 - info: [debug] [UiAutomator2] Getting session details from server to mix in
+2018-12-30 21:23:44:667 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-12-30 21:23:44:667 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8201/wd/hub/session/8b259873-bb66-4d68-976e-933d38326f8c] with body: {}
+2018-12-30 21:23:44:687 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b259873-bb66-4d68-976e-933d38326f8c\",\"status\":0,\"value\":{}}"
+2018-12-30 21:23:44:695 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0"},"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0","deviceUDID":"48fedac1","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"ONEPLUS A5000","deviceManufacturer":"OnePlus","deviceApiLevel":27,"pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}
+2018-12-30 21:23:44:697 - info: [HTTP] <-- GET /wd/hub/session/289ee778-e825-4752-a940-8418ebf043b2 200 34 ms - 899
+2018-12-30 21:23:44:697 - info: [HTTP] 
+2018-12-30 21:23:44:778 - info: [HTTP] --> GET /wd/hub/session/289ee778-e825-4752-a940-8418ebf043b2
+2018-12-30 21:23:44:781 - info: [HTTP] {}
+2018-12-30 21:23:44:782 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["289ee778-e825-4752-a940-8418ebf043b2"]
+2018-12-30 21:23:44:782 - info: [debug] [UiAutomator2] Getting session details from server to mix in
+2018-12-30 21:23:44:782 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-12-30 21:23:44:782 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8201/wd/hub/session/8b259873-bb66-4d68-976e-933d38326f8c] with body: {}
+2018-12-30 21:23:44:798 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b259873-bb66-4d68-976e-933d38326f8c\",\"status\":0,\"value\":{}}"
+2018-12-30 21:23:44:815 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0"},"browserName":"","platformName":"android","appActivity":"com.oneplus.camera.OPCameraActivity","appPackage":"com.oneplus.camera","automationName":"UiAutomator2","deviceName":"48fedac1","platformVersion":"8.1.0","deviceUDID":"48fedac1","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"ONEPLUS A5000","deviceManufacturer":"OnePlus","deviceApiLevel":27,"pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}
+2018-12-30 21:23:44:815 - info: [HTTP] <-- GET /wd/hub/session/289ee778-e825-4752-a940-8418ebf043b2 200 40 ms - 899
+2018-12-30 21:23:44:815 - info: [HTTP] 
+2018-12-30 21:23:44:893 - info: [HTTP] --> POST /wd/hub/session/289ee778-e825-4752-a940-8418ebf043b2/timeouts
+2018-12-30 21:23:44:893 - info: [HTTP] {"implicit":10000}
+2018-12-30 21:23:44:893 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"289ee778-e825-4752-a940-8418ebf043b2"]
+2018-12-30 21:23:44:893 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2018-12-30 21:23:44:893 - info: [debug] [BaseDriver] Set implicit wait to 10000ms
+2018-12-30 21:23:44:909 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-12-30 21:23:44:909 - info: [HTTP] <-- POST /wd/hub/session/289ee778-e825-4752-a940-8418ebf043b2/timeouts 200 12 ms - 14
+2018-12-30 21:23:44:909 - info: [HTTP] 
