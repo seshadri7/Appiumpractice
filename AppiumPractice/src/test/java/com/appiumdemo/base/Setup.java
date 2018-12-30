@@ -30,7 +30,7 @@ public class Setup {
 		service.start();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME, "");
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "48fedac1");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "OnePlus5");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
