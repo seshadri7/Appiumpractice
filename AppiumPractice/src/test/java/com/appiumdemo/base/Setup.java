@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 
 import com.appiumdemo.utilities.Common;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -28,20 +29,20 @@ public class Setup {
 
 // Appiumserver
 	
-	public static AppiumDriverLocalService service = AppiumDriverLocalService.buildService(
+	/*public static AppiumDriverLocalService service = AppiumDriverLocalService.buildService(
 			new AppiumServiceBuilder().usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
 			.withAppiumJS(new File("C:\\Users\\sesh\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\build\\lib\\main.js"))
 			.withLogFile(new File(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\appiumdemo\\logs\\appium.logs")).withArgument(GeneralServerFlag.LOCAL_TIMEZONE));
-
+*/
 // capabilities for mobiledevice	
 	
-	@Test
+	@BeforeSuite
 	public static void applauch() throws IOException {
 		
-		if(service.isRunning()) {
+		/*if(service.isRunning()) {
 			System.out.println("Server is running");
 		}else {
-		service.start();}
+		service.start();}*/
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
 		
@@ -50,8 +51,8 @@ public class Setup {
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-		cap.setCapability("appPackage", "com.oneplus.camera");
-		cap.setCapability("appActivity", "com.oneplus.camera.OPCameraActivity");
+		cap.setCapability("appPackage", "com.mobeta.android.demodslv");
+		cap.setCapability("appActivity", "com.mobeta.android.demodslv.Launcher");
 		//cap.setCapability(MobileCapabilityType.APPLICATION_NAME, " ");
 		
 		driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),cap);
@@ -66,12 +67,7 @@ public class Setup {
 	
 	
 	public static void teardown() {
-		service.stop();
+	//	service.stop();
 	}
 	
-	public static void main(String[] args) throws IOException {
-		applauch();
-		teardown();
-	}
-
 }
