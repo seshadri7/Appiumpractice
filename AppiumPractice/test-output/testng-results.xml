@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84459" started-at="2018-12-30T15:52:20Z" finished-at="2018-12-30T15:53:45Z">
+  <suite name="Default suite" duration-ms="75189" started-at="2018-12-30T19:14:36Z" finished-at="2018-12-30T19:15:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="84459" started-at="2018-12-30T15:52:20Z" finished-at="2018-12-30T15:53:45Z">
+    <test name="Default test" duration-ms="75189" started-at="2018-12-30T19:14:36Z" finished-at="2018-12-30T19:15:51Z">
       <class name="com.appiumdemo.base.Setup">
-        <test-method status="PASS" signature="applauch()[pri:0, instance:com.appiumdemo.base.Setup@604ed9f0]" name="applauch" duration-ms="84312" started-at="2018-12-30T15:52:20Z" finished-at="2018-12-30T15:53:45Z">
+        <test-method status="PASS" signature="applauch()[pri:0, instance:com.appiumdemo.base.Setup@67784306]" name="applauch" duration-ms="74865" started-at="2018-12-30T19:14:36Z" finished-at="2018-12-30T19:15:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applauch -->
