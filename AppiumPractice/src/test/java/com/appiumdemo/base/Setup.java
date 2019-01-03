@@ -26,6 +26,10 @@ public class Setup {
 // driver implementation for Android
 	
 	public static AndroidDriver driver;
+	
+	public static String Packagename ="com.spencerstudios.screentest";
+	public static String Activityname ="spencerstudios.com.screentest.TitleActivity";
+			
 
 // Appiumserver
 	
@@ -51,8 +55,8 @@ public class Setup {
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-		cap.setCapability("appPackage", "com.mobeta.android.demodslv");
-		cap.setCapability("appActivity", "com.mobeta.android.demodslv.Launcher");
+		cap.setCapability("appPackage", Packagename);
+		cap.setCapability("appActivity", Activityname);
 		//cap.setCapability(MobileCapabilityType.APPLICATION_NAME, " ");
 		
 		driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),cap);

@@ -13,14 +13,16 @@ import org.testng.annotations.Test;
 
 import com.appiumdemo.base.Setup;
 
+import io.appium.java_client.MultiTouchAction;
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 
 public class Case1 extends Setup {
 	
-	@Test(description="Drag and drop")
+	@Test(description="Drag and drop", enabled = false)
 	public static void num1() throws InterruptedException {
 		
 	driver.findElement(By.id("com.mobeta.android.demodslv:id/activity_title")).click();
@@ -38,8 +40,35 @@ public class Case1 extends Setup {
 	TouchAction ac = new TouchAction(driver);
 	
 	ac.press(PointOption.point(x, y)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(3000))).moveTo(PointOption.point(x, y+300)).release().perform();
+
+		
+	}
 	
-	
+	@Test(description= "Zoom", priority = 1)
+	public static void zoom() {
+		MultiTouchAction mc = new MultiTouchAction(driver);
+		TouchAction tc1 = new TouchAction(driver);
+		TouchAction tc2 = new TouchAction(driver);
+		
+		driver.findElement(By.id("com.spencerstudios.screentest:id/multitouch")).click();
+		
+		Dimension window =driver.manage().window().getSize();
+		
+		int scrheight = window.getHeight();
+		int scrwidth = window.getWidth();
+		
+		System.out.println(scrwidth);
+		System.out.println(scrheight);
+		
+		tc1.press(PointOption.point(scrwidth/2, scrheight/2)).moveTo(PointOption.point(scrwidth/2, scrheight/2-100)).release();
+
+		tc2.press(PointOption.point(scrwidth/2, scrheight/2)).moveTo(PointOption.point(scrwidth/2, scrheight/2+200)).release();
+		
+		//tc1.tap(PointOption.point(scrwidth/2, scrheight/2));
+		//tc2.tap(PointOption.point(scrwidth/3, scrheight/3));
+		
+		mc.add(tc1).add(tc2);
+		mc.perform();
 		
 	}
 

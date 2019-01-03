@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75189" started-at="2018-12-30T19:14:36Z" finished-at="2018-12-30T19:15:51Z">
+  <suite name="Default suite" duration-ms="2083" started-at="2019-01-02T19:25:32Z" finished-at="2019-01-02T19:25:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75189" started-at="2018-12-30T19:14:36Z" finished-at="2018-12-30T19:15:51Z">
-      <class name="com.appiumdemo.base.Setup">
-        <test-method status="PASS" signature="applauch()[pri:0, instance:com.appiumdemo.base.Setup@67784306]" name="applauch" duration-ms="74865" started-at="2018-12-30T19:14:36Z" finished-at="2018-12-30T19:15:51Z">
+    <test name="Default test" duration-ms="2083" started-at="2019-01-02T19:25:32Z" finished-at="2019-01-02T19:25:34Z">
+      <class name="com.appiumdemo.testcases.Case1">
+        <test-method status="PASS" signature="applauch()[pri:0, instance:com.appiumdemo.testcases.Case1@77cd7a0]" name="applauch" is-config="true" duration-ms="35409" started-at="2019-01-02T19:24:57Z" finished-at="2019-01-02T19:25:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applauch -->
-      </class> <!-- com.appiumdemo.base.Setup -->
+        <test-method status="PASS" signature="zoom()[pri:1, instance:com.appiumdemo.testcases.Case1@77cd7a0]" name="zoom" duration-ms="2040" started-at="2019-01-02T19:25:32Z" description="Zoom" finished-at="2019-01-02T19:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zoom -->
+      </class> <!-- com.appiumdemo.testcases.Case1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
